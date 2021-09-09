@@ -18,7 +18,7 @@ public class TestController {
 	
 	@GetMapping(path = "/devops-test")
 	public String devOpsTest() {
-		return "This change was automatically deployed through Jenkins";
+		return "This change was automatically deployed through Jenkins. <New update>";
 	}
 	
 }
