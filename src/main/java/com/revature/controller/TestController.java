@@ -16,4 +16,9 @@ public class TestController {
 		return "Hello world!";
 	}
 	
+	@GetMapping(path = "/devops-test")
+	public String devOpsTest() {
+		return "This change was automatically deployed through Jenkins";
+	}
+	
 }
