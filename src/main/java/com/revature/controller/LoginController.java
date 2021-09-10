@@ -20,7 +20,8 @@ import com.revature.service.AuthenticationService;
 import com.revature.utility.LoginCookieUtility;
 
 @RestController
-@CrossOrigin(origins = { "http://localhost:4201", "http://127.0.0.1:4201", "http://ec2-18-188-206-162.us-east-2.compute.amazonaws.com:8081" }, allowCredentials = "true")
+//@CrossOrigin(origins = { "http://localhost:4201", "http://127.0.0.1:4201", "http://ec2-18-188-206-162.us-east-2.compute.amazonaws.com:8081" }, allowCredentials = "true")
+@CrossOrigin(origins = "*", allowCredentials = "true")
 public class LoginController {
 
 	@Autowired
