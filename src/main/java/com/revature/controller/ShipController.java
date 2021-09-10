@@ -33,7 +33,7 @@ import com.revature.service.ShipService;
 // JavaScript that will attempt to send HTTP requests to a backend that is not in their control
 
 // So the backend will inform the browser about what JavaScript sources are actually trusted
-@CrossOrigin(origins = "*", allowCredentials = "true")
+@CrossOrigin(originPatterns = "*", allowCredentials = "true")
 public class ShipController {
 
 	@Autowired
